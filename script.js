@@ -21,4 +21,6 @@ function revealOnScroll() {
   });
 }
 
+/* 🔥 CORREÇÃO AQUI */
 window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll); // <- resolve o problema
