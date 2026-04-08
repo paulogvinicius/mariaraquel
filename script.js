@@ -1,7 +1,7 @@
 function contatoWhats() {
     // Substitua pelo seu número (DDI + DDD + Número)
     const numero = "556796404728"; 
-    const mensagem = encodeURIComponent("Olá! Gostaria de mais informações.");
+    const mensagem = encodeURIComponent("Olá Maria Raquel! Gostaria de mais informações sobre as aulas da professora substituta. Quando tem disponibilidade?");
     const url = `https://wa.me/${numero}?text=${mensagem}`;
 
     // Abre o link em uma nova aba
