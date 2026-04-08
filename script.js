@@ -1,4 +1,12 @@
+function contatoWhats() {
+    // Substitua pelo seu número (DDI + DDD + Número)
+    const numero = "556796404728"; 
+    const mensagem = encodeURIComponent("Olá! Gostaria de mais informações.");
+    const url = `https://wa.me/${numero}?text=${mensagem}`;
 
+    // Abre o link em uma nova aba
+    window.open(url, '_blank');
+}
 
 /* ANIMAÇÃO AO ROLAR */
 const reveals = document.querySelectorAll(".reveal");
