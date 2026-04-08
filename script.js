@@ -1,10 +1,4 @@
-function contatoWhats() {
-  const numero = "5567999999999";
-  const mensagem = "Olá, vi seu site e preciso de uma professora para substituição.";
 
-  const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
-  window.open(url, "_blank");
-}
 
 /* ANIMAÇÃO AO ROLAR */
 const reveals = document.querySelectorAll(".reveal");
